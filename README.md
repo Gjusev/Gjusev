@@ -86,14 +86,14 @@ infrastructure  vercel · german hosting · TLS 1.3 · AES-256
 ---
 
 <div align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Gjusev&show_icons=true&theme=highcontrast&hide_border=true&title_color=6C9EF7&icon_color=6C9EF7&text_color=c9d1d9&bg_color=000000" />
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=Gjusev&theme=highcontrast&hide_border=true&background=000000&stroke=000000&ring=6C9EF7&fire=6C9EF7&currStreakLabel=6C9EF7&sideLabels=ffffff&dates=ffffff" />
+<img height="170" src="https://github-readme-stats-theta-plum.vercel.app/api?username=Gjusev&show_icons=true&theme=highcontrast&hide_border=true&title_color=6C9EF7&icon_color=6C9EF7&text_color=c9d1d9&bg_color=000000" />
+<img height="170" src="https://streak-stats.demolab.com?user=Gjusev&theme=highcontrast&hide_border=true&background=000000&stroke=000000&ring=6C9EF7&fire=6C9EF7&currStreakLabel=6C9EF7&sideLabels=ffffff&dates=ffffff" />
 </div>
 
 <br/>
 
 <div align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gjusev&layout=compact&theme=highcontrast&hide_border=true&title_color=6C9EF7&text_color=c9d1d9&bg_color=000000" />
+<img height="170" src="https://github-readme-stats-theta-plum.vercel.app/api/top-langs/?username=Gjusev&layout=compact&theme=highcontrast&hide_border=true&title_color=6C9EF7&text_color=c9d1d9&bg_color=000000" />
 <img height="170" src="https://github-readme-activity-graph.vercel.app/graph?username=Gjusev&theme=github-compact&hide_border=true&bg_color=000000&color=6C9EF7&line=6C9EF7&point=ffffff&area=true&area_color=6C9EF7" />
 </div>
 
