@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="440" alt="ánfora griega con meandro — pixel art" />
+<img src="assets/hero.svg" width="440" alt="ánfora griega con meandro y laurel — pixel art animado" />
 
 founder of [mokka-agentur.de](https://mokka-agentur.de) — building at web × AI × privacy
 
