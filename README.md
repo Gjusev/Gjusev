@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="440" alt="gj0xv" />
+<img src="assets/hero.svg" width="440" alt="busto de Hermes con máscara de datos — pixel art" />
 
 founder of [mokka-agentur.de](https://mokka-agentur.de) — building at web × AI × privacy
 
@@ -19,7 +19,9 @@ founder of [mokka-agentur.de](https://mokka-agentur.de) — building at web × A
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/px-mokka-dark.svg" />
   <img src="assets/px-mokka-light.svg" width="26" alt="" />
-</picture> [**mokka-agentur.de**](https://mokka-agentur.de) — *digital agency*
+</picture>
+
+[**mokka-agentur.de**](https://mokka-agentur.de) — *digital agency*
 
 Custom-coded websites (no WordPress), AI products & workflow automation for SMBs across Germany. 100% DSGVO-compliant, German-hosted, load times under 1s.
 
@@ -31,7 +33,9 @@ Custom-coded websites (no WordPress), AI products & workflow automation for SMBs
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/px-klar-dark.svg" />
   <img src="assets/px-klar-light.svg" width="26" alt="" />
-</picture> [**klarbescheid.de**](https://klarbescheid.de) — *AI Buergergeld notice checker*
+</picture>
+
+[**klarbescheid.de**](https://klarbescheid.de) — *AI Buergergeld notice checker*
 
 Upload a government benefit letter → OCR + semantic search against SGB-II regulations via Qdrant → error detection in under 1 minute. Free for citizens, lawyer partner program.
 
@@ -45,7 +49,9 @@ Upload a government benefit letter → OCR + semantic search against SGB-II regu
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/px-mask-dark.svg" />
   <img src="assets/px-mask-light.svg" width="26" alt="" />
-</picture> [**datenmaske.de**](https://datenmaske.de) — *automatic PDF redaction*
+</picture>
+
+[**datenmaske.de**](https://datenmaske.de) — *automatic PDF redaction*
 
 Detects 20+ PII types via hybrid NER (spaCy + GLiNER + OpenMed) + regex. Irreversible redaction with pixel-perfect PDF output. Self-hosted models, zero external API calls, EU-only hosting. Free tier without registration.
 
@@ -57,7 +63,9 @@ Detects 20+ PII types via hybrid NER (spaCy + GLiNER + OpenMed) + regex. Irrever
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/px-studio-dark.svg" />
   <img src="assets/px-studio-light.svg" width="26" alt="" />
-</picture> [**Studio Command Center**](https://mokka-agentur.de) — *fitness studio SaaS*
+</picture>
+
+[**Studio Command Center**](https://mokka-agentur.de) — *fitness studio SaaS*
 
 10-module management platform: inventory, machines, staff, members, finances, course planning & reporting. Multi-tenant architecture, role-based access.
 
