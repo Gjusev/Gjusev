@@ -1,40 +1,25 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="540" alt="gj0xv — pixel portrait with censor bar, datenmaske style" />
+<img src="assets/hero.svg" width="440" alt="gj0xv" />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=VT323&size=30&duration=2800&pause=900&color=BCBAB5&center=true&vCenter=true&repeat=true&width=560&height=56&lines=%3E+founder+of+mokka-agentur.de;%3E+building+at+web+%C3%97+ai+%C3%97+privacy;%3E+local+first%2C+always" />
-  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=30&duration=2800&pause=900&color=5f5e5a&center=true&vCenter=true&repeat=true&width=560&height=56&lines=%3E+founder+of+mokka-agentur.de;%3E+building+at+web+%C3%97+ai+%C3%97+privacy;%3E+local+first%2C+always" alt="Typing SVG" />
-</picture>
+founder of [mokka-agentur.de](https://mokka-agentur.de) — building at web × AI × privacy
 
-<br/>
-
-`Siegen, DE` &nbsp;·&nbsp; `palestina libre` &nbsp;·&nbsp; ![](https://komarev.com/ghpvc/?username=Gjusev&style=flat-square&color=1a1a1a&label=visitors)
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg" width="420" />
-  <img src="assets/divider-light.svg" width="420" alt="" />
-</picture>
+`Siegen, DE` · `palestina libre` · [![](https://komarev.com/ghpvc/?username=Gjusev&style=flat-square&color=1a1a1a&label=visitors)](https://github.com/Gjusev)
 
 </div>
 
 ---
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hdr-build-dark.svg" />
-  <img src="assets/hdr-build-light.svg" alt="what i build" />
-</picture>
-
-</div>
+### what i build
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### <picture><source media="(prefers-color-scheme: dark)" srcset="assets/px-mokka-dark.svg" /><img src="assets/px-mokka-light.svg" width="26" alt="" /></picture> [mokka-agentur.de](https://mokka-agentur.de)
-**digital agency — web, AI & automation**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/px-mokka-dark.svg" />
+  <img src="assets/px-mokka-light.svg" width="26" alt="" />
+</picture> [**mokka-agentur.de**](https://mokka-agentur.de) — *digital agency*
 
 Custom-coded websites (no WordPress), AI products & workflow automation for SMBs across Germany. 100% DSGVO-compliant, German-hosted, load times under 1s.
 
@@ -43,8 +28,10 @@ Custom-coded websites (no WordPress), AI products & workflow automation for SMBs
 </td>
 <td width="50%" valign="top">
 
-### <picture><source media="(prefers-color-scheme: dark)" srcset="assets/px-klar-dark.svg" /><img src="assets/px-klar-light.svg" width="26" alt="" /></picture> [klarbescheid.de](https://klarbescheid.de)
-**AI-powered Buergergeld notice checker**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/px-klar-dark.svg" />
+  <img src="assets/px-klar-light.svg" width="26" alt="" />
+</picture> [**klarbescheid.de**](https://klarbescheid.de) — *AI Buergergeld notice checker*
 
 Upload a government benefit letter → OCR + semantic search against SGB-II regulations via Qdrant → error detection in under 1 minute. Free for citizens, lawyer partner program.
 
@@ -55,8 +42,10 @@ Upload a government benefit letter → OCR + semantic search against SGB-II regu
 <tr>
 <td valign="top">
 
-### <picture><source media="(prefers-color-scheme: dark)" srcset="assets/px-mask-dark.svg" /><img src="assets/px-mask-light.svg" width="26" alt="" /></picture> [datenmaske.de](https://datenmaske.de)
-**automatic PDF redaction — DSGVO-compliant SaaS**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/px-mask-dark.svg" />
+  <img src="assets/px-mask-light.svg" width="26" alt="" />
+</picture> [**datenmaske.de**](https://datenmaske.de) — *automatic PDF redaction*
 
 Detects 20+ PII types via hybrid NER (spaCy + GLiNER + OpenMed) + regex. Irreversible redaction with pixel-perfect PDF output. Self-hosted models, zero external API calls, EU-only hosting. Free tier without registration.
 
@@ -65,8 +54,10 @@ Detects 20+ PII types via hybrid NER (spaCy + GLiNER + OpenMed) + regex. Irrever
 </td>
 <td valign="top">
 
-### <picture><source media="(prefers-color-scheme: dark)" srcset="assets/px-studio-dark.svg" /><img src="assets/px-studio-light.svg" width="26" alt="" /></picture> [Studio Command Center](https://mokka-agentur.de)
-**multi-tenant SaaS for fitness studios**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/px-studio-dark.svg" />
+  <img src="assets/px-studio-light.svg" width="26" alt="" />
+</picture> [**Studio Command Center**](https://mokka-agentur.de) — *fitness studio SaaS*
 
 10-module management platform: inventory, machines, staff, members, finances, course planning & reporting. Multi-tenant architecture, role-based access.
 
@@ -78,12 +69,7 @@ Detects 20+ PII types via hybrid NER (spaCy + GLiNER + OpenMed) + regex. Irrever
 
 ---
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hdr-stack-dark.svg" />
-  <img src="assets/hdr-stack-light.svg" alt="stack" />
-</picture>
+### stack
 
 ```text
 frontend     next.js 14 · react · typescript · tailwind · shadcn/ui
@@ -99,27 +85,11 @@ infrastructure  vercel · german hosting · TLS 1.3 · AES-256
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,nextjs,react,tailwind,nodejs,python,docker,postgres,redis,prisma,linux&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=ts,nextjs,react,tailwind,nodejs,python,docker,postgres,redis,prisma,linux&theme=light" alt="stack icons" />
+  <img src="https://skillicons.dev/icons?i=ts,nextjs,react,tailwind,nodejs,python,docker,postgres,redis,prisma,linux&theme=light" alt="" />
 </picture>
-
-</div>
 
 ---
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hdr-connect-dark.svg" />
-  <img src="assets/hdr-connect-light.svg" alt="connect" />
-</picture>
+### connect
 
 [**mokka**](https://mokka-agentur.de) · [**klarbescheid**](https://klarbescheid.de) · [**datenmaske**](https://datenmaske.de)
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/divider-dark.svg" width="360" />
-  <img src="assets/divider-light.svg" width="360" alt="" />
-</picture>
-
-`© gj0xv — all systems local`
-
-</div>
