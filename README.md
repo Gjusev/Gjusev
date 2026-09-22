@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="440" alt="medusa — pixel art animado" />
+<img src="assets/hero.svg" width="440" alt="medusa gorgona — pixel art animado" />
 
 founder of [mokka-agentur.de](https://mokka-agentur.de) — building at web × AI × privacy
 
