@@ -107,19 +107,6 @@ infrastructure  vercel · german hosting · TLS 1.3 · AES-256
 ---
 
 <div align="center">
-<img height="170" src="https://github-readme-stats-theta-plum.vercel.app/api?username=Gjusev&show_icons=true&hide_border=true&title_color=F7F6F3&icon_color=955D47&text_color=BCBAB5&bg_color=000000" />
-<img height="170" src="https://streak-stats.demolab.com?user=Gjusev&hide_border=true&background=000000&stroke=1A1A1A&ring=F7F6F3&fire=955D47&currStreakLabel=F7F6F3&sideLabels=9A9894&dates=757471" />
-</div>
-
-<br/>
-
-<div align="center">
-<img height="170" src="https://github-readme-stats-theta-plum.vercel.app/api/top-langs/?username=Gjusev&layout=compact&hide_border=true&title_color=F7F6F3&text_color=BCBAB5&bg_color=000000" />
-</div>
-
----
-
-<div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hdr-connect-dark.svg" />
