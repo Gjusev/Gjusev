@@ -4,7 +4,7 @@
   <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/hero-still-dark.svg" />
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-still-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
-  <img src="assets/hero-light.svg" width="640" alt="Medusa — a classical Greek profile with slowly moving serpents" />
+  <img src="assets/hero-light.svg" width="640" alt="Medusa looking toward the viewer, with softly blinking eyes and moving serpents" />
 </picture>
 
 ### Websites, AI products & privacy tools.
