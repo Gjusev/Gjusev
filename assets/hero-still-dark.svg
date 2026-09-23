@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
   <title id="title">Medusa — a Greek cameo</title>
-  <desc id="desc">A sculpted profile framed by five curling serpents, in ivory and bronze. The outer serpents move gently.</desc>
+  <desc id="desc">A sculpted profile framed by five curling serpents, in ivory and bronze. A still illustration for reduced motion.</desc>
   <g fill="none" stroke="#B49B78" stroke-width=".8" opacity=".38">
     <circle cx="320" cy="169" r="125"/>
     <path d="M133 169h34m306 0h34"/>
@@ -8,13 +8,11 @@
   <g fill="none" stroke="#E7E2D9" stroke-linecap="round" stroke-linejoin="round">
     <!-- The silhouette stays still; only two outer snakes gently stir. -->
     <g class="motion" stroke-width="7">
-      <animateTransform attributeName="transform" type="rotate" values="-2.5 288 216;2.5 288 216;-2.5 288 216" dur="9s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/>
       <path d="M288 216c-31 4-64-16-66-45-2-20 12-28 21-19 13 13-7 27-19 14-17-18-2-40 12-57 12-15 7-31-7-32"/>
       <path d="M230 77c-7-8-19-7-22-1 4 8 15 10 22 1Z" fill="#E7E2D9" stroke-width="2"/>
       <circle cx="215" cy="76" r="1.4" fill="#0D1117" stroke="none"/>
     </g>
     <g class="motion" stroke-width="7">
-      <animateTransform attributeName="transform" type="rotate" values="-2.5 319 122;2.5 319 122;-2.5 319 122" dur="12s" begin="-4s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/>
       <path d="M319 122c13-31 40-45 66-36 20 7 29 31 17 42-10 9-24 2-21-9 3-10 17-12 27-2 17 17 12 39-7 38"/>
       <path d="M401 155c-3-8-14-12-20-6 1 9 13 12 20 6Z" fill="#E7E2D9" stroke-width="2"/>
       <circle cx="387" cy="150" r="1.4" fill="#0D1117" stroke="none"/>

@@ -1,103 +1,81 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="440" alt="medusa gorgona — pixel art animado" />
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/hero-still-dark.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-still-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
+  <img src="assets/hero-light.svg" width="640" alt="Medusa — a classical Greek profile with slowly moving serpents" />
+</picture>
 
-founder of [mokka-agentur.de](https://mokka-agentur.de) — building at web × AI × privacy
+### Websites, AI products & privacy tools.
 
-`Siegen, DE` · `palestina libre` · [![](https://komarev.com/ghpvc/?username=Gjusev&style=flat-square&color=1a1a1a&label=visitors)](https://github.com/Gjusev)
+Founder of [**mokka**](https://mokka-agentur.de). Building independent software in Germany.
+
+<sub>Siegen, DE &nbsp; / &nbsp; web · AI · privacy &nbsp; / &nbsp; palestina libre</sub>
+
+<br><br>
+
+<img src="assets/divider.svg" width="768" alt="" />
 
 </div>
 
----
+### Selected work
 
-### what i build
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/px-mokka-dark.svg" /><img src="assets/px-mokka-light.svg" width="22" height="22" alt="" /></picture>&nbsp; [**mokka**](https://mokka-agentur.de) &nbsp; · &nbsp; Digital agency
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Custom websites, AI products and workflow automation for small businesses. Built with code, hosted in Germany.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/px-mokka-dark.svg" />
-  <img src="assets/px-mokka-light.svg" width="26" alt="" />
-</picture>
+<sub>Next.js · TypeScript · Tailwind · n8n · Stripe</sub>
 
-[**mokka-agentur.de**](https://mokka-agentur.de) — *digital agency*
+<br>
 
-Custom-coded websites (no WordPress), AI products & workflow automation for SMBs across Germany. 100% DSGVO-compliant, German-hosted, load times under 1s.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/px-klar-dark.svg" /><img src="assets/px-klar-light.svg" width="22" height="22" alt="" /></picture>&nbsp; [**klarbescheid**](https://klarbescheid.de) &nbsp; · &nbsp; Understand the fine print
 
-`next.js` `typescript` `tailwind` `ai-pipelines` `n8n` `stripe`
+AI-assisted checks for Bürgergeld notices. Extracts the letter, searches the relevant regulations and flags possible errors. Free for citizens.
 
-</td>
-<td width="50%" valign="top">
+<sub>RAG · Qdrant · OCR · LangChain</sub>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/px-klar-dark.svg" />
-  <img src="assets/px-klar-light.svg" width="26" alt="" />
-</picture>
+<br>
 
-[**klarbescheid.de**](https://klarbescheid.de) — *AI Buergergeld notice checker*
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/px-mask-dark.svg" /><img src="assets/px-mask-light.svg" width="22" height="22" alt="" /></picture>&nbsp; [**datenmaske**](https://datenmaske.de) &nbsp; · &nbsp; Keep private things private
 
-Upload a government benefit letter → OCR + semantic search against SGB-II regulations via Qdrant → error detection in under 1 minute. Free for citizens, lawyer partner program.
+Automatic PDF redaction for 20+ types of personal data. Self-hosted models, irreversible redaction and EU-only hosting.
 
-`rag` `qdrant` `ocr` `langchain` `semantic-search`
+<sub>Python · spaCy · GLiNER · MuPDF · OCR</sub>
 
-</td>
-</tr>
-<tr>
-<td valign="top">
+<br>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/px-mask-dark.svg" />
-  <img src="assets/px-mask-light.svg" width="26" alt="" />
-</picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/px-studio-dark.svg" /><img src="assets/px-studio-light.svg" width="22" height="22" alt="" /></picture>&nbsp; [**Studio Command Center**](https://mokka-agentur.de) &nbsp; · &nbsp; The everyday, organised
 
-[**datenmaske.de**](https://datenmaske.de) — *automatic PDF redaction*
+One workspace for fitness studios: members, equipment, staff, finances and classes. Ten modules with tenant isolation and role-based access.
 
-Detects 20+ PII types via hybrid NER (spaCy + GLiNER + OpenMed) + regex. Irreversible redaction with pixel-perfect PDF output. Self-hosted models, zero external API calls, EU-only hosting. Free tier without registration.
+<sub>Next.js · Prisma · Clerk · PostgreSQL</sub>
 
-`ner` `ocr` `mupdf` `pdf-lib` `tesseract` `api`
+<br>
 
-</td>
-<td valign="top">
+<img src="assets/divider.svg" width="768" alt="" />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/px-studio-dark.svg" />
-  <img src="assets/px-studio-light.svg" width="26" alt="" />
-</picture>
+### Tools of the trade
 
-[**Studio Command Center**](https://mokka-agentur.de) — *fitness studio SaaS*
+| | |
+| :--- | :--- |
+| **Interfaces** | TypeScript, React, Next.js, Tailwind, shadcn/ui |
+| **Backends** | Node.js, Python, FastAPI, Prisma, Drizzle |
+| **AI & language** | LangChain, RAG, NER, OCR, Qdrant, fine-tuning |
+| **Data & infrastructure** | PostgreSQL, Redis, Docker, Linux, Vercel |
+| **Automation** | n8n, Make, Playwright, Puppeteer |
+| **CMS & services** | Directus, Strapi, Sanity, NextAuth, Clerk, Stripe |
 
-10-module management platform: inventory, machines, staff, members, finances, course planning & reporting. Multi-tenant architecture, role-based access.
+<br>
 
-`next.js` `prisma` `clerk` `postgresql` `saas`
+<div align="center">
 
-</td>
-</tr>
-</table>
+<img src="assets/divider.svg" width="768" alt="" />
 
----
+**Have something in mind?**
 
-### stack
+[Let's talk at mokka](https://mokka-agentur.de) &nbsp; ↗
 
-```text
-frontend     next.js 14 · react · typescript · tailwind · shadcn/ui
-backend      node.js · python · fastapi · prisma · drizzle
-cms          directus · strapi · sanity
-auth         nextauth · clerk
-ai/ml        langchain · RAG · NER (spaCy, GLiNER) · OCR · qdrant · fine-tuning
-automation   n8n · make · docker · playwright · puppeteer
-payments     stripe api
-database     postgresql · redis · qdrant
-infrastructure  vercel · german hosting · TLS 1.3 · AES-256
-```
+<sub>Built with care. From Siegen.</sub>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,nextjs,react,tailwind,nodejs,python,docker,postgres,redis,prisma,linux&theme=dark" />
-  <img src="https://skillicons.dev/icons?i=ts,nextjs,react,tailwind,nodejs,python,docker,postgres,redis,prisma,linux&theme=light" alt="" />
-</picture>
-
----
-
-### connect
-
-[**mokka**](https://mokka-agentur.de) · [**klarbescheid**](https://klarbescheid.de) · [**datenmaske**](https://datenmaske.de)
+</div>
