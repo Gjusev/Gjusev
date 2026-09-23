@@ -4,78 +4,59 @@
   <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/hero-still-dark.svg" />
   <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-still-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
-  <img src="assets/hero-light.svg" width="640" alt="Medusa looking toward the viewer, with softly blinking eyes and moving serpents" />
+  <img src="assets/hero-light.svg" width="640" alt="Medusa turns from profile to meet the viewer's gaze" />
 </picture>
 
 ### Websites, AI products & privacy tools.
 
-Founder of [**mokka**](https://mokka-agentur.de). Building independent software in Germany.
+Founder of [**mokka**](https://mokka-agentur.de). Independent software, made in Germany.
 
-<sub>Siegen, DE &nbsp; / &nbsp; web · AI · privacy &nbsp; / &nbsp; palestina libre</sub>
-
-<br><br>
-
-<img src="assets/divider.svg" width="768" alt="" />
+<sub>Siegen, DE &nbsp; / &nbsp; web Â· AI Â· privacy &nbsp; / &nbsp; palestina libre</sub>
 
 </div>
+
+---
 
 ### Selected work
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/px-mokka-dark.svg" /><img src="assets/px-mokka-light.svg" width="22" height="22" alt="" /></picture>&nbsp; [**mokka**](https://mokka-agentur.de) &nbsp; · &nbsp; Digital agency
+**[mokka](https://mokka-agentur.de)**
 
-Custom websites, AI products and workflow automation for small businesses. Built with code, hosted in Germany.
+Websites, AI products and automation for small businesses.
 
-<sub>Next.js · TypeScript · Tailwind · n8n · Stripe</sub>
-
-<br>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/px-klar-dark.svg" /><img src="assets/px-klar-light.svg" width="22" height="22" alt="" /></picture>&nbsp; [**klarbescheid**](https://klarbescheid.de) &nbsp; · &nbsp; Understand the fine print
-
-AI-assisted checks for Bürgergeld notices. Extracts the letter, searches the relevant regulations and flags possible errors. Free for citizens.
-
-<sub>RAG · Qdrant · OCR · LangChain</sub>
+<sub>Next.js Â· TypeScript Â· n8n</sub>
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/px-mask-dark.svg" /><img src="assets/px-mask-light.svg" width="22" height="22" alt="" /></picture>&nbsp; [**datenmaske**](https://datenmaske.de) &nbsp; · &nbsp; Keep private things private
+**[klarbescheid](https://klarbescheid.de)**
 
-Automatic PDF redaction for 20+ types of personal data. Self-hosted models, irreversible redaction and EU-only hosting.
+AI-assisted checks that make BÃ¼rgergeld notices easier to understand.
 
-<sub>Python · spaCy · GLiNER · MuPDF · OCR</sub>
-
-<br>
-
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/px-studio-dark.svg" /><img src="assets/px-studio-light.svg" width="22" height="22" alt="" /></picture>&nbsp; [**Studio Command Center**](https://mokka-agentur.de) &nbsp; · &nbsp; The everyday, organised
-
-One workspace for fitness studios: members, equipment, staff, finances and classes. Ten modules with tenant isolation and role-based access.
-
-<sub>Next.js · Prisma · Clerk · PostgreSQL</sub>
+<sub>RAG Â· Qdrant Â· OCR</sub>
 
 <br>
 
-<img src="assets/divider.svg" width="768" alt="" />
+**[datenmaske](https://datenmaske.de)**
 
-### Tools of the trade
+Automatic PDF redaction. Private data stays private.
 
-| | |
-| :--- | :--- |
-| **Interfaces** | TypeScript, React, Next.js, Tailwind, shadcn/ui |
-| **Backends** | Node.js, Python, FastAPI, Prisma, Drizzle |
-| **AI & language** | LangChain, RAG, NER, OCR, Qdrant, fine-tuning |
-| **Data & infrastructure** | PostgreSQL, Redis, Docker, Linux, Vercel |
-| **Automation** | n8n, Make, Playwright, Puppeteer |
-| **CMS & services** | Directus, Strapi, Sanity, NextAuth, Clerk, Stripe |
+<sub>Python Â· NER Â· MuPDF</sub>
 
 <br>
 
-<div align="center">
+**[Studio Command Center](https://mokka-agentur.de)**
 
-<img src="assets/divider.svg" width="768" alt="" />
+Members, staff, equipment and finances in one studio workspace.
 
-**Have something in mind?**
+<sub>Next.js Â· Prisma Â· PostgreSQL</sub>
 
-[Let's talk at mokka](https://mokka-agentur.de) &nbsp; ↗
+---
 
-<sub>Built with care. From Siegen.</sub>
+### Working with
 
-</div>
+TypeScript Â· React Â· Next.js Â· Python Â· FastAPI Â· PostgreSQL Â· Docker
+
+RAG Â· NER Â· OCR Â· Qdrant Â· n8n Â· Playwright
+
+---
+
+[Letâ€™s build something useful â†—](https://mokka-agentur.de)
