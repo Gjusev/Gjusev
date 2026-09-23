@@ -11,7 +11,7 @@
 
 Founder of [**mokka**](https://mokka-agentur.de). Independent software, made in Germany.
 
-<sub>Siegen, DE &nbsp; / &nbsp; web Â· AI Â· privacy &nbsp; / &nbsp; palestina libre</sub>
+<sub>Siegen, DE / web - AI - privacy / palestina libre</sub>
 
 </div>
 
@@ -23,15 +23,15 @@ Founder of [**mokka**](https://mokka-agentur.de). Independent software, made in 
 
 Websites, AI products and automation for small businesses.
 
-<sub>Next.js Â· TypeScript Â· n8n</sub>
+<sub>Next.js - TypeScript - n8n</sub>
 
 <br>
 
 **[klarbescheid](https://klarbescheid.de)**
 
-AI-assisted checks that make BÃ¼rgergeld notices easier to understand.
+AI-assisted checks that make Buergergeld notices easier to understand.
 
-<sub>RAG Â· Qdrant Â· OCR</sub>
+<sub>RAG - Qdrant - OCR</sub>
 
 <br>
 
@@ -39,7 +39,7 @@ AI-assisted checks that make BÃ¼rgergeld notices easier to understand.
 
 Automatic PDF redaction. Private data stays private.
 
-<sub>Python Â· NER Â· MuPDF</sub>
+<sub>Python - NER - MuPDF</sub>
 
 <br>
 
@@ -47,16 +47,16 @@ Automatic PDF redaction. Private data stays private.
 
 Members, staff, equipment and finances in one studio workspace.
 
-<sub>Next.js Â· Prisma Â· PostgreSQL</sub>
+<sub>Next.js - Prisma - PostgreSQL</sub>
 
 ---
 
 ### Working with
 
-TypeScript Â· React Â· Next.js Â· Python Â· FastAPI Â· PostgreSQL Â· Docker
+TypeScript - React - Next.js - Python - FastAPI - PostgreSQL - Docker
 
-RAG Â· NER Â· OCR Â· Qdrant Â· n8n Â· Playwright
+RAG - NER - OCR - Qdrant - n8n - Playwright
 
 ---
 
-[Letâ€™s build something useful â†—](https://mokka-agentur.de)
+[Let's build something useful ->](https://mokka-agentur.de)
