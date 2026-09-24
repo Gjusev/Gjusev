@@ -59,4 +59,4 @@ RAG - NER - OCR - Qdrant - n8n - Playwright
 
 ---
 
-[Let's build something useful ->](https://mokka-agentur.de)
+[Let's build something useful ->](https://www.linkedin.com/in/youssef-o-6b93611b7/)
