@@ -19,7 +19,7 @@ Founder of [**mokka**](https://mokka-agentur.de). Independent software, made in 
 
 ### Laya systems
 
-[![5 Laya projects](https://img.shields.io/badge/6-Laya%20projects-0D1117?style=flat-square&logo=github&logoColor=white&labelColor=A3AB96)](https://github.com/Gjusev?tab=repositories&q=laya&sort=updated)
+[![5 Laya projects](https://img.shields.io/badge/5-Laya%20projects-0D1117?style=flat-square&logo=github&logoColor=white&labelColor=A3AB96)](https://github.com/Gjusev?tab=repositories&q=laya&sort=updated)
 
 Applied System 1 decision models for retrieval, security, routing and support operations.
 
