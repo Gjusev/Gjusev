@@ -60,7 +60,6 @@ Applied System 1 decision models for retrieval, security, routing and support op
 - **[laya-router](https://github.com/Gjusev/laya-router)** — OpenAI-compatible proxy that routes prompts between efficient and frontier models.
 - **[laya-triage](https://github.com/Gjusev/laya-triage)** — multilingual ticket triage with intent routing, urgency, frustration and churn signals.
 - **[laya-evals](https://github.com/Gjusev/laya-evals)** — CI-ready calibration auditing with reliability diagrams, ECE and coverage/accuracy thresholds.
-- **[note-lm](https://github.com/Gjusev/note-lm)** — self-hosted research notebook for PDFs, videos, YouTube and web sources, with cited chat.
 
 ---
 
