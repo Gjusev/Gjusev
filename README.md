@@ -15,19 +15,38 @@ Founder of [**mokka**](https://mokka-agentur.de). Independent software, made in 
 
 ---
 
----
+## Decision tools for AI pipelines
 
-### Laya systems
+I build open-source tools that put decision models between your app and your LLMs. Two engines, one idea: measured, auditable decisions that cut costs and improve quality.
 
-[![5 Laya projects](https://img.shields.io/badge/5-Laya%20projects-0D1117?style=flat-square&logo=github&logoColor=white&labelColor=A3AB96)](https://github.com/Gjusev?tab=repositories&q=laya&sort=updated)
+### The laya series (local, CPU, $0 per decision)
 
-Applied System 1 decision models for retrieval, security, routing and support operations.
+Built on the [laya](https://github.com/NandhaKishorM/laya) decision engine.
 
-- **[laya-compactor](https://github.com/Gjusev/laya-compactor)** — cuts 70% of RAG context tokens without answer-quality loss by scoring retrieved chunks in one local pass.
-- **[laya-phishield](https://github.com/Gjusev/laya-phishield)** — explainable phishing detection combining semantic signals with deterministic header and URL checks.
-- **[laya-router](https://github.com/Gjusev/laya-router)** — OpenAI-compatible proxy that routes prompts between efficient and frontier models.
-- **[laya-triage](https://github.com/Gjusev/laya-triage)** — multilingual ticket triage with intent routing, urgency, frustration and churn signals.
-- **[laya-evals](https://github.com/Gjusev/laya-evals)** — CI-ready calibration auditing with reliability diagrams, ECE and coverage/accuracy thresholds.
+- **[laya-router](https://github.com/Gjusev/laya-router)** — 54.9% cost reduction, $0 per decision · [PyPI](https://pypi.org/project/laya-router/)
+- **[laya-compactor](https://github.com/Gjusev/laya-compactor)** — cut 70% of RAG tokens, same answer quality · [PyPI](https://pypi.org/project/laya-compactor/)
+- **[laya-triage](https://github.com/Gjusev/laya-triage)** — fine-tuned from 51% to 90.5% accuracy · [PyPI](https://pypi.org/project/laya-triage/)
+- **[laya-phishield](https://github.com/Gjusev/laya-phishield)** — explainable phishing, $0 per 1,000 emails · [PyPI](https://pypi.org/project/laya-phishield/)
+- **[laya-evals](https://github.com/Gjusev/laya-evals)** — calibration audits + CI gates · [PyPI](https://pypi.org/project/laya-evals/)
+
+### The clef series (Cloudflare, 64k context, vision)
+
+Built on Cloudflare's [Clef](https://huggingface.co/Cloudflare/clef) decision models.
+
+- **[clef-router](https://github.com/Gjusev/clef-router)** — 92.9% accuracy on T4 runs · [PyPI](https://pypi.org/project/clef-router/)
+- **[clef-compactor](https://github.com/Gjusev/clef-compactor)** — RAG compaction, 64k context · [PyPI](https://pypi.org/project/clef-compactor/)
+- **[clef-evals](https://github.com/Gjusev/clef-evals)** — calibration-first evaluation · [PyPI](https://pypi.org/project/clef-evals/)
+
+### Which engine?
+
+| | laya | Clef |
+|---|---|---|
+| Latency | **5.8ms** | 38.8ms (flash) |
+| Quality (BFCL) | 38.1 | **98.8** |
+| Context | 32k | **64k** |
+| Hosting | **local** | Cloudflare |
+
+Use laya for speed. Use Clef for quality. Both Apache 2.0.
 
 ---
 
@@ -63,8 +82,6 @@ Automatic PDF redaction. Private data stays private.
 Members, staff, equipment and finances in one studio workspace.
 
 <sub>Next.js - Prisma - PostgreSQL</sub>
-
-
 
 ### Working with
 
