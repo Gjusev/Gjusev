@@ -5,90 +5,91 @@
   <img src="assets/hero-light.svg?v=2" width="640" alt="Animated Medusa turns from profile to meet the viewer's gaze" />
 </picture>
 
-### Websites, AI products & privacy tools.
+### Voice agents, open-source AI tools & independent software.
 
-Founder of [**mokka**](https://mokka-agentur.de). Independent software, made in Germany.
+I'm Youssef, founder of [**mokka**](https://mokka-agentur.de), based in Siegen, Germany.<br>
+I build tools to test AI systems, make their decisions inspectable, and keep data under your control.
 
-<sub>Siegen, DE / web - AI - privacy / palestina libre</sub>
+[Selected work](#selected-work) · [AI tooling](#ai-tooling) · [More projects](#more-projects) · [Get in touch](https://www.linkedin.com/in/youssef-o-6b93611b7/)
+
+<sub>Siegen, DE / web · AI · privacy / palestina libre</sub>
 
 </div>
 
 ---
 
-## Decision tools for AI pipelines
+## Selected work
 
-I build open-source tools that put decision models between your app and your LLMs. Two engines, one idea: measured, auditable decisions that cut costs and improve quality.
+Open-source projects with code, examples, and a way to try them.
 
-### The laya series (local, CPU, $0 per decision)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Gjusev/voice-evals"><img src="https://raw.githubusercontent.com/Gjusev/voice-evals/main/docs/assets/voice-evals-demo-poster.jpg" width="100%" alt="voice-evals: replay scoring, live probes and inspectable session artifacts" /></a>
+      <h3><a href="https://github.com/Gjusev/voice-evals">voice-evals</a></h3>
+      <p>Replay calls or probe a live WebSocket agent. Gate on transcription, latency, interruptions, and task outcomes.</p>
+      <p><sub>Python · CLI + library · Apache-2.0</sub></p>
+      <p><a href="https://github.com/Gjusev/voice-evals">Code</a> · <a href="https://pypi.org/project/voice-evals/">PyPI</a> · <a href="https://github.com/Gjusev/voice-evals#watch-the-demo">Demo</a> · <a href="https://www.kaggle.com/code/gjusev/voice-evals-offline-benchmark">Kaggle</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Gjusev/note-lm"><img src="https://raw.githubusercontent.com/Gjusev/note-lm/main/docs/screenshots/note-lm-launch-poster.jpg" width="100%" alt="note-lm: a local research notebook with sources and traceable evidence" /></a>
+      <h3><a href="https://github.com/Gjusev/note-lm">note-lm</a></h3>
+      <p>A local research notebook with versioned sources, cited claims, and evidence you can trace back to the original passage.</p>
+      <p><sub>Windows desktop · Local storage and models · MIT</sub></p>
+      <p><a href="https://github.com/Gjusev/note-lm">Code</a> · <a href="https://github.com/Gjusev/note-lm/releases/latest">Download</a> · <a href="https://github.com/Gjusev/note-lm#see-it-in-20-seconds">Demo</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Gjusev/laya-triage">laya-triage</a></h3>
+      <p>Local support-ticket routing with urgency signals and human handoff. Includes a fine-tuned BANKING77 model and reproducible evaluations.</p>
+      <p><sub>Python · Local decision model · Apache-2.0</sub></p>
+      <p><a href="https://github.com/Gjusev/laya-triage">Code</a> · <a href="https://laya-triage-8spuhg8fa5qjy8hiteomux.streamlit.app/">Try the app</a> · <a href="https://huggingface.co/Gjusev/laya-triage-banking77">Model</a> · <a href="https://github.com/Gjusev/laya-triage#measured-results">Results</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Gjusev/heizpro-ki">HeizPro KI</a></h3>
+      <p>A German-speaking voice agent that qualifies heating-service leads, with a dashboard and a two-agent call simulator.</p>
+      <p><sub>Next.js · ElevenLabs · PostgreSQL · MIT</sub></p>
+      <p><a href="https://github.com/Gjusev/heizpro-ki">Code</a> · <a href="https://mischa.mokka-dev.de">Live demo</a></p>
+    </td>
+  </tr>
+</table>
 
-Built on the [laya](https://github.com/NandhaKishorM/laya) decision engine.
+## AI tooling
 
-- **[laya-router](https://github.com/Gjusev/laya-router)** — 54.9% cost reduction, $0 per decision · [PyPI](https://pypi.org/project/laya-router/)
-- **[laya-compactor](https://github.com/Gjusev/laya-compactor)** — cut 70% of RAG tokens, same answer quality · [PyPI](https://pypi.org/project/laya-compactor/)
-- **[laya-triage](https://github.com/Gjusev/laya-triage)** — fine-tuned from 51% to 90.5% accuracy · [PyPI](https://pypi.org/project/laya-triage/)
-- **[laya-phishield](https://github.com/Gjusev/laya-phishield)** — explainable phishing, $0 per 1,000 emails · [PyPI](https://pypi.org/project/laya-phishield/)
-- **[laya-evals](https://github.com/Gjusev/laya-evals)** — calibration audits + CI gates · [PyPI](https://pypi.org/project/laya-evals/)
+Small Python packages for routing, retrieval, and evaluation. The laya tools use a local decision model; the Clef tools integrate with Cloudflare's decision models.
 
-### The clef series (Cloudflare, 64k context, vision)
+| Task | Local · laya | Cloudflare · Clef |
+| --- | --- | --- |
+| **Evaluate** — confidence audits & CI gates | [laya-evals](https://github.com/Gjusev/laya-evals) · [PyPI](https://pypi.org/project/laya-evals/) | [clef-evals](https://github.com/Gjusev/clef-evals) · [PyPI](https://pypi.org/project/clef-evals/) |
+| **Route** — choose an LLM per request | [laya-router](https://github.com/Gjusev/laya-router) · [PyPI](https://pypi.org/project/laya-router/) | [clef-router](https://github.com/Gjusev/clef-router) · [PyPI](https://pypi.org/project/clef-router/) |
+| **Compact** — fit evidence to a token budget | [laya-compactor](https://github.com/Gjusev/laya-compactor) · [PyPI](https://pypi.org/project/laya-compactor/) | [clef-compactor](https://github.com/Gjusev/clef-compactor) · [PyPI](https://pypi.org/project/clef-compactor/) |
 
-Built on Cloudflare's [Clef](https://huggingface.co/Cloudflare/clef) decision models.
+**[laya-phishield](https://github.com/Gjusev/laya-phishield)** applies the same approach to phishing detection: local semantic signals, deterministic email checks, and an explainable risk score. [PyPI](https://pypi.org/project/laya-phishield/)
 
-- **[clef-router](https://github.com/Gjusev/clef-router)** — 92.9% accuracy on T4 runs · [PyPI](https://pypi.org/project/clef-router/)
-- **[clef-compactor](https://github.com/Gjusev/clef-compactor)** — RAG compaction, 64k context · [PyPI](https://pypi.org/project/clef-compactor/)
-- **[clef-evals](https://github.com/Gjusev/clef-evals)** — calibration-first evaluation · [PyPI](https://pypi.org/project/clef-evals/)
+These are independent tools built on [laya](https://github.com/NandhaKishorM/laya) and [Cloudflare Clef](https://huggingface.co/Cloudflare/clef). Each repository documents its setup, benchmarks, and current limitations.
 
-### Which engine?
+## More projects
 
-| | laya | Clef |
-|---|---|---|
-| Latency | **5.8ms** | 38.8ms (flash) |
-| Quality (BFCL) | 38.1 | **98.8** |
-| Context | 32k | **64k** |
-| Hosting | **local** | Cloudflare |
+Application code, architecture notes, and demos. Status reflects each repository's current scope.
 
-Use laya for speed. Use Clef for quality. Both Apache 2.0.
+- **[Nexary](https://github.com/Gjusev/nexary-platform)** — AI collaboration with hybrid RAG and audit trails for customer-controlled networks. Public portfolio export. [Architecture](https://github.com/Gjusev/nexary-platform/blob/main/docs/architecture.md) · [Screenshots](https://github.com/Gjusev/nexary-platform#screenshots).
 
----
+- **[Studio Command Center](https://github.com/Gjusev/studio-command-center)** — inventory, equipment maintenance, and staff workflows for fitness studios. Prototype with demo data. [Setup](https://github.com/Gjusev/studio-command-center#quickstart) · [Screenshots](https://github.com/Gjusev/studio-command-center#screenshots).
 
+- **[Somatriq](https://github.com/Gjusev/somatriq)** — self-hosted wearable data, traceable calculations, and personal experiments. Active prototype. [Architecture](https://github.com/Gjusev/somatriq/blob/main/docs/architecture.md) · [Screenshots](https://github.com/Gjusev/somatriq#screenshots).
 
-### Selected work
+[Browse all repositories →](https://github.com/Gjusev?tab=repositories)
 
-**[mokka](https://mokka-agentur.de)**
+## Working with
 
-Websites, AI products and automation for small businesses.
-
-<sub>Next.js - TypeScript - n8n</sub>
-
-<br>
-
-**[klarbescheid](https://klarbescheid.de)**
-
-AI-assisted checks that make Buergergeld notices easier to understand.
-
-<sub>RAG - Qdrant - OCR</sub>
-
-<br>
-
-**[datenmaske](https://datenmaske.de)**
-
-Automatic PDF redaction. Private data stays private.
-
-<sub>Python - NER - MuPDF</sub>
-
-<br>
-
-**[Studio Command Center](https://mokka-agentur.de)**
-
-Members, staff, equipment and finances in one studio workspace.
-
-<sub>Next.js - Prisma - PostgreSQL</sub>
-
-### Working with
-
-TypeScript - React - Next.js - Python - FastAPI - PostgreSQL - Docker
-
-RAG - NER - OCR - Qdrant - n8n - Playwright
+**Build** — Python, TypeScript, React, Next.js, FastAPI, Tauri.<br>
+**Data & infrastructure** — PostgreSQL, Qdrant, Docker, n8n.<br>
+**AI systems** — voice agents, RAG, local models, evaluation, Playwright testing.
 
 ---
+
+**[mokka](https://mokka-agentur.de)** — websites, AI products, and automation for small businesses.<br>
+Also building [klarbescheid](https://klarbescheid.de) for understandable benefits notices and [datenmaske](https://datenmaske.de) for PDF redaction.
 
 [Let's build something useful →](https://www.linkedin.com/in/youssef-o-6b93611b7/)
