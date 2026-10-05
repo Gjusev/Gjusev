@@ -69,6 +69,13 @@ Small Python packages for routing, retrieval, and evaluation. The laya tools use
 
 These are independent tools built on [laya](https://github.com/NandhaKishorM/laya) and [Cloudflare Clef](https://huggingface.co/Cloudflare/clef). Each repository documents its setup, benchmarks, and current limitations.
 
+## Document & vision evaluation
+
+Your extractor reads the same invoice in three locales. Your vision API gets the same pixels. Measure both — offline-first regression kits with deterministic CI gates.
+
+- **[locale-invoice-check](https://github.com/Gjusev/locale-invoice-check)** — EN/DE/ES invoice extraction, deterministic CI gates · [PyPI](https://pypi.org/project/locale-invoice-check/)
+- **[vision-input-check](https://github.com/Gjusev/vision-input-check)** — pixel-identical vs lossy image variants, variance-aware gates · [PyPI](https://pypi.org/project/vision-input-check/)
+
 ## More projects
 
 Application code, architecture notes, and demos. Status reflects each repository's current scope.
@@ -86,13 +93,6 @@ Application code, architecture notes, and demos. Status reflects each repository
 **Build** — Python, TypeScript, React, Next.js, FastAPI, Tauri.<br>
 **Data & infrastructure** — PostgreSQL, Qdrant, Docker, n8n.<br>
 **AI systems** — voice agents, RAG, local models, evaluation, Playwright testing.
-
-## Document & vision evaluation
-
-Your extractor reads the same invoice in three locales. Your vision API gets the same pixels. Measure both — offline-first regression kits with deterministic CI gates.
-
-- **[locale-invoice-check](https://github.com/Gjusev/locale-invoice-check)** — EN/DE/ES invoice extraction, deterministic CI gates · [PyPI](https://pypi.org/project/locale-invoice-check/)
-- **[vision-input-check](https://github.com/Gjusev/vision-input-check)** — pixel-identical vs lossy image variants, variance-aware gates · [PyPI](https://pypi.org/project/vision-input-check/)
 
 ---
 
