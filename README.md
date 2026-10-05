@@ -87,6 +87,13 @@ Application code, architecture notes, and demos. Status reflects each repository
 **Data & infrastructure** — PostgreSQL, Qdrant, Docker, n8n.<br>
 **AI systems** — voice agents, RAG, local models, evaluation, Playwright testing.
 
+## Document & vision evaluation
+
+Your extractor reads the same invoice in three locales. Your vision API gets the same pixels. Measure both — offline-first regression kits with deterministic CI gates.
+
+- **[locale-invoice-check](https://github.com/Gjusev/locale-invoice-check)** — EN/DE/ES invoice extraction, deterministic CI gates · [PyPI](https://pypi.org/project/locale-invoice-check/)
+- **[vision-input-check](https://github.com/Gjusev/vision-input-check)** — pixel-identical vs lossy image variants, variance-aware gates · [PyPI](https://pypi.org/project/vision-input-check/)
+
 ---
 
 **[mokka](https://mokka-agentur.de)** — websites, AI products, and automation for small businesses.<br>
