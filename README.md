@@ -77,10 +77,6 @@ The corpus is **provisional**: speech is synthetic, the channel is simulated, an
 
 **A research notebook that keeps the passage behind each claim.** Import documents, pages, audio, or video; save claims against immutable source versions; review what changed when a source is re-imported. Local search, models, and transcription by default, with optional remote providers.
 
-<a href="https://github.com/Gjusev/note-lm#the-research-loop">
-  <img src="https://raw.githubusercontent.com/Gjusev/note-lm/main/eval/ui-drive/artifacts/02-workspace.png" width="800" alt="note-lm's German-language desktop workspace, showing sources, a reading surface, and an evidence inspector" />
-</a>
-
 [Download for Windows](https://github.com/Gjusev/note-lm/releases/latest) · [Watch the demo](https://github.com/Gjusev/note-lm#see-it-in-20-seconds) · [Architecture](https://github.com/Gjusev/note-lm/blob/main/ARCHITECTURE.md)
 
 ### [HeizPro KI](https://github.com/Gjusev/heizpro-ki)
@@ -104,6 +100,10 @@ The corpus is **provisional**: speech is synthetic, the channel is simulated, an
 ## Developer tools
 
 ### [voice-evals](https://github.com/Gjusev/voice-evals)
+
+<a href="https://github.com/Gjusev/voice-evals#watch-the-demo">
+  <img src="https://raw.githubusercontent.com/Gjusev/voice-evals/main/docs/assets/voice-evals-cover.png" width="800" alt="voice-evals: voice-agent evaluation with replay scoring, live probes, and CI gates" />
+</a>
 
 **Replay a call. Probe a live agent. Fail CI on a regression.** Deterministic scoring for transcription, latency, interruptions, and task outcomes, with inspectable session artifacts. Offline replay and a mock probe work without API keys; live probes use a configurable WebSocket protocol.
 
