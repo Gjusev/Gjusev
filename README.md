@@ -1,102 +1,166 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?v=2" />
-  <img src="assets/hero-light.svg?v=2" width="640" alt="Animated Medusa turns from profile to meet the viewer's gaze" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-still-dark.svg" />
+  <img src="assets/hero-still-light.svg" width="320" alt="Medusa, the illustrated emblem of my GitHub profile" />
 </picture>
 
-### Voice agents, open-source AI tools & independent software.
+# Youssef Ouhaghi Ahmian
 
-I'm Youssef, founder of [**mokka**](https://mokka-agentur.de), based in Siegen, Germany.<br>
-I build tools to test AI systems, make their decisions inspectable, and keep data under your control.
+**AI product engineer · Founder of [mokka](https://mokka-agentur.de)**
 
-[Selected work](#selected-work) · [AI tooling](#ai-tooling) · [More projects](#more-projects) · [Get in touch](https://www.linkedin.com/in/youssef-o-6b93611b7/)
+I train small decision models, build voice agents, and write the tools to test them.<br>
+My work spans published model weights, reproducible evaluations, and software you can run yourself.
 
-<sub>Siegen, DE / web · AI · privacy / palestina libre</sub>
+[Models & research](#models--research) &nbsp; / &nbsp; [Applications](#applications) &nbsp; / &nbsp; [Developer tools](#developer-tools)
+
+[Hugging Face](https://huggingface.co/Gjusev) · [Kaggle](https://www.kaggle.com/gjusev) · [LinkedIn](https://www.linkedin.com/in/youssef-o-6b93611b7/) · [mokka](https://mokka-agentur.de)
+
+<sub>Siegen, Germany · palestina libre</sub>
 
 </div>
 
 ---
 
-## Selected work
+## Models & research
 
-Open-source projects with code, examples, and a way to try them.
+### [MK-SH-1](https://github.com/Gjusev/MK-SH-1)
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Gjusev/voice-evals"><img src="https://raw.githubusercontent.com/Gjusev/voice-evals/main/docs/assets/voice-evals-demo-poster.jpg" width="100%" alt="voice-evals: replay scoring, live probes and inspectable session artifacts" /></a>
-      <h3><a href="https://github.com/Gjusev/voice-evals">voice-evals</a></h3>
-      <p>Replay calls or probe a live WebSocket agent. Gate on transcription, latency, interruptions, and task outcomes.</p>
-      <p><sub>Python · CLI + library · Apache-2.0</sub></p>
-      <p><a href="https://github.com/Gjusev/voice-evals">Code</a> · <a href="https://pypi.org/project/voice-evals/">PyPI</a> · <a href="https://github.com/Gjusev/voice-evals#watch-the-demo">Demo</a> · <a href="https://www.kaggle.com/code/gjusev/voice-evals-offline-benchmark">Kaggle</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Gjusev/note-lm"><img src="https://raw.githubusercontent.com/Gjusev/note-lm/main/docs/screenshots/note-lm-launch-poster.jpg" width="100%" alt="note-lm: a local research notebook with sources and traceable evidence" /></a>
-      <h3><a href="https://github.com/Gjusev/note-lm">note-lm</a></h3>
-      <p>A local research notebook with versioned sources, cited claims, and evidence you can trace back to the original passage.</p>
-      <p><sub>Windows desktop · Local storage and models · MIT</sub></p>
-      <p><a href="https://github.com/Gjusev/note-lm">Code</a> · <a href="https://github.com/Gjusev/note-lm/releases/latest">Download</a> · <a href="https://github.com/Gjusev/note-lm#see-it-in-20-seconds">Demo</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Gjusev/laya-triage">laya-triage</a></h3>
-      <p>Local support-ticket routing with urgency signals and human handoff. Includes a fine-tuned BANKING77 model and reproducible evaluations.</p>
-      <p><sub>Python · Local decision model · Apache-2.0</sub></p>
-      <p><a href="https://github.com/Gjusev/laya-triage">Code</a> · <a href="https://laya-triage-8spuhg8fa5qjy8hiteomux.streamlit.app/">Try the app</a> · <a href="https://huggingface.co/Gjusev/laya-triage-banking77">Model</a> · <a href="https://github.com/Gjusev/laya-triage#measured-results">Results</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Gjusev/heizpro-ki">HeizPro KI</a></h3>
-      <p>A German-speaking voice agent that qualifies heating-service leads, with a dashboard and a two-agent call simulator.</p>
-      <p><sub>Next.js · ElevenLabs · PostgreSQL · MIT</sub></p>
-      <p><a href="https://github.com/Gjusev/heizpro-ki">Code</a> · <a href="https://mischa.mokka-dev.de">Live demo</a></p>
-    </td>
-  </tr>
-</table>
+<img align="right" src="https://raw.githubusercontent.com/Gjusev/MK-SH-1/main/assets/logo-mark.png" width="88" alt="MK-SH-1 whale shark mark" />
 
-## AI tooling
+**A 140M-parameter decision model with calibrated confidence and abstention.**
 
-Small Python packages for routing, retrieval, and evaluation. The laya tools use a local decision model; the Clef tools integrate with Cloudflare's decision models.
+I fine-tuned an mmBERT-small encoder to score described options against a state and a question. It returns probabilities and a choice, or abstains below its confidence threshold. The training work investigates numeric threshold comparisons and uses replay mixing to retain the original routing task.
 
-| Task | Local · laya | Cloudflare · Clef |
+Published weights, a CPU demo, training code, and an experiment record with corrected results. Calibration improves confidence estimates; its fitted risk budget does not hold on every held-out distribution.
+
+[Model weights & card](https://huggingface.co/Gjusev/MK-SH-1) · [Try the model](https://huggingface.co/spaces/Gjusev/MK-SH-1-demo) · [Training & evaluation](https://github.com/Gjusev/MK-SH-1#reproduce)
+
+<details>
+<summary>Inside the research: measurements and their limits</summary>
+
+| Measurement | Published result | Scope |
 | --- | --- | --- |
-| **Evaluate** — confidence audits & CI gates | [laya-evals](https://github.com/Gjusev/laya-evals) · [PyPI](https://pypi.org/project/laya-evals/) | [clef-evals](https://github.com/Gjusev/clef-evals) · [PyPI](https://pypi.org/project/clef-evals/) |
-| **Route** — choose an LLM per request | [laya-router](https://github.com/Gjusev/laya-router) · [PyPI](https://pypi.org/project/laya-router/) | [clef-router](https://github.com/Gjusev/clef-router) · [PyPI](https://pypi.org/project/clef-router/) |
-| **Compact** — fit evidence to a token budget | [laya-compactor](https://github.com/Gjusev/laya-compactor) · [PyPI](https://pypi.org/project/laya-compactor/) | [clef-compactor](https://github.com/Gjusev/clef-compactor) · [PyPI](https://pypi.org/project/clef-compactor/) |
+| Numeric threshold accuracy | 97.9% | 48 known-threshold examples |
+| Fresh extreme thresholds | 87.5% | 56 examples; 7 of 8 pairs |
+| Original routing task | 80.0% | 300-row evaluation slice |
+| Calibration error | 0.073 → 0.016 | 480-question calibration split; fitted on this split |
+| Abstention policy | 90% coverage, 4.86% selective risk | In-sample; held-out risk reaches 8.2% on fresh OOD and 7.3% on routing |
 
-**[laya-phishield](https://github.com/Gjusev/laya-phishield)** applies the same approach to phishing detection: local semantic signals, deterministic email checks, and an explainable risk score. [PyPI](https://pypi.org/project/laya-phishield/)
+These are bounded research measurements. The [model card](https://huggingface.co/Gjusev/MK-SH-1#calibration--abstention-v12-experiment-e36) records sample sizes, uncertainty, and where the policy misses its target. The encoder comes from [JHU CLSP](https://huggingface.co/jhu-clsp/mmBERT-small); the training, evaluation, and calibration system is in my repository.
 
-These are independent tools built on [laya](https://github.com/NandhaKishorM/laya) and [Cloudflare Clef](https://huggingface.co/Cloudflare/clef). Each repository documents its setup, benchmarks, and current limitations.
+</details>
 
-## Document & vision evaluation
+### [laya-triage](https://github.com/Gjusev/laya-triage)
 
-Your extractor reads the same invoice in three locales. Your vision API gets the same pixels. Measure both — offline-first regression kits with deterministic CI gates.
+**Support-ticket routing with a published BANKING77 fine-tune.** Two stages narrow 77 intents into 12 clusters and 8 departments, with urgency signals and confidence-based human handoff. The fine-tuned pipeline reached **89.8% intent accuracy on the full 3,080-ticket BANKING77 test split**. Multilingual routing is available; the published fine-tune and headline result are English.
 
-- **[locale-invoice-check](https://github.com/Gjusev/locale-invoice-check)** — EN/DE/ES invoice extraction, deterministic CI gates · [PyPI](https://pypi.org/project/locale-invoice-check/)
-- **[vision-input-check](https://github.com/Gjusev/vision-input-check)** — pixel-identical vs lossy image variants, variance-aware gates · [PyPI](https://pypi.org/project/vision-input-check/)
+[Fine-tuned checkpoint](https://huggingface.co/Gjusev/laya-triage-banking77) · [App](https://laya-triage-8spuhg8fa5qjy8hiteomux.streamlit.app/) · [Results & limitations](https://github.com/Gjusev/laya-triage#measured-results)
 
-## More projects
+### [VoxEntity-EU](https://github.com/Gjusev/voxentity-eu)
 
-Application code, architecture notes, and demos. Status reflects each repository's current scope.
+**Did the voice system capture the exact phone number?** A benchmark for names, phone numbers, emails, dates, addresses, and reference codes in German and French. It compares clean speech with a simulated telephone channel, with separate extensions for corrections, code-switching, voices, and Spanish.
 
-- **[Nexary](https://github.com/Gjusev/nexary-platform)** — AI collaboration with hybrid RAG and audit trails for customer-controlled networks. Public portfolio export. [Architecture](https://github.com/Gjusev/nexary-platform/blob/main/docs/architecture.md) · [Screenshots](https://github.com/Gjusev/nexary-platform#screenshots).
+The corpus is **provisional**: speech is synthetic, the channel is simulated, and systematic human review is pending. The dataset and results browser let you inspect and listen to individual failures.
 
-- **[Studio Command Center](https://github.com/Gjusev/studio-command-center)** — inventory, equipment maintenance, and staff workflows for fitness studios. Prototype with demo data. [Setup](https://github.com/Gjusev/studio-command-center#quickstart) · [Screenshots](https://github.com/Gjusev/studio-command-center#screenshots).
+[Dataset](https://huggingface.co/datasets/Gjusev/voxentity-eu) · [Listen & inspect results](https://huggingface.co/spaces/Gjusev/voxentity-eu-results) · [Reproduce](https://github.com/Gjusev/voxentity-eu#reproduce-on-a-cpu)
 
-- **[Somatriq](https://github.com/Gjusev/somatriq)** — self-hosted wearable data, traceable calculations, and personal experiments. Active prototype. [Architecture](https://github.com/Gjusev/somatriq/blob/main/docs/architecture.md) · [Screenshots](https://github.com/Gjusev/somatriq#screenshots).
+### [gate-calibrated](https://github.com/Gjusev/gate-calibrated)
 
-[Browse all repositories →](https://github.com/Gjusev?tab=repositories)
+**When should a tool-using agent act, and when should it ask?** A calibrated approval gate with a LangGraph integration and a reproducible tau-bench retail evaluation. The study measures wrong writes against approval burden and reports the negative result: calibration did not establish an advantage over simple alternatives under the tested setup.
 
-## Working with
+[Results](https://github.com/Gjusev/gate-calibrated#main-result) · [Agent integration](https://github.com/Gjusev/gate-calibrated#use-the-gate-in-your-own-agent)
 
-**Build** — Python, TypeScript, React, Next.js, FastAPI, Tauri.<br>
-**Data & infrastructure** — PostgreSQL, Qdrant, Docker, n8n.<br>
-**AI systems** — voice agents, RAG, local models, evaluation, Playwright testing.
+## Applications
+
+### [note-lm](https://github.com/Gjusev/note-lm)
+
+**A research notebook that keeps the passage behind each claim.** Import documents, pages, audio, or video; save claims against immutable source versions; review what changed when a source is re-imported. Local search, models, and transcription by default, with optional remote providers.
+
+<a href="https://github.com/Gjusev/note-lm#the-research-loop">
+  <img src="https://raw.githubusercontent.com/Gjusev/note-lm/main/eval/ui-drive/artifacts/02-workspace.png" width="800" alt="note-lm's German-language desktop workspace, showing sources, a reading surface, and an evidence inspector" />
+</a>
+
+[Download for Windows](https://github.com/Gjusev/note-lm/releases/latest) · [Watch the demo](https://github.com/Gjusev/note-lm#see-it-in-20-seconds) · [Architecture](https://github.com/Gjusev/note-lm/blob/main/ARCHITECTURE.md)
+
+### [HeizPro KI](https://github.com/Gjusev/heizpro-ki)
+
+**A German-speaking voice agent for heating-service enquiries.** Qualifies a caller's needs, location, and urgency, then saves a structured lead for follow-up. Includes a lead dashboard and a two-agent simulator for exercising conversations.
+
+[Voice demo](https://mischa.mokka-dev.de) · [Source & setup](https://github.com/Gjusev/heizpro-ki#run-it)
+
+<details>
+<summary>More applications: RAG, meal planning, wearable data, and business workflows</summary>
+
+- **[Nexary platform](https://github.com/Gjusev/nexary-platform)**: multi-provider chat, hybrid RAG, and audit export for customer-controlled infrastructure. Public portfolio export; a fresh end-to-end deployment remains unverified.
+- **[Nexary website](https://github.com/Gjusev/nexary)**: the separate German, English, and Spanish marketing frontend, with light/dark themes and a configurable application handoff.
+- **[Maqrivo](https://github.com/Gjusev/maqrivo)**: self-hosted meal planning and grocery optimization. AI proposes recipes, deterministic code calculates nutrition, and CP-SAT selects a plan using pantry stock and observed prices. Active development; price coverage depends on available observations.
+- **[Somatriq](https://github.com/Gjusev/somatriq)**: self-hosted wearable data, versioned calculations, and personal experiments. Active prototype; mobile sync and hardware acceptance remain open.
+- **[Studio Command Center](https://github.com/Gjusev/studio-command-center)**: fitness-studio inventory, equipment maintenance, staff tasks, and operational records. Portfolio prototype with seeded demonstration data.
+- **[Falschinfo-Radar](https://github.com/Gjusev/falschinfo-radar)**: discovers German nutrition videos, extracts claims for review, and drafts corrections. Application project; fresh end-to-end discovery requires provider keys and remains unverified in the public export.
+
+</details>
+
+## Developer tools
+
+### [voice-evals](https://github.com/Gjusev/voice-evals)
+
+**Replay a call. Probe a live agent. Fail CI on a regression.** Deterministic scoring for transcription, latency, interruptions, and task outcomes, with inspectable session artifacts. Offline replay and a mock probe work without API keys; live probes use a configurable WebSocket protocol.
+
+[Python package](https://pypi.org/project/voice-evals/) · [Offline notebook](https://www.kaggle.com/code/gjusev/voice-evals-offline-benchmark) · [Demo](https://github.com/Gjusev/voice-evals#watch-the-demo)
+
+### Tools for working with coding agents
+
+- **[hard-mode](https://github.com/Gjusev/hard-mode)** tests web apps under long text, narrow viewports, empty data, slow requests, and keyboard navigation. Keeps screenshots, geometry, and focus traces for comparable before/after runs.
+- **[skill-issue](https://github.com/Gjusev/skill-issue)** runs the same task with and without a skill from identical starting files. An independent verifier checks the result; traces and reported usage stay available for inspection.
+- **[i-didnt-write-this](https://github.com/Gjusev/i-didnt-write-this)** turns one JavaScript or TypeScript feature into an interactive lesson, with source references, prediction exercises, and recorded execution evidence.
+
+Each includes a CLI and an agent skill. See the repositories for installation and verified harness support.
+
+<details>
+<summary>Decision-model tooling: routing, context compaction, calibration, and CI</summary>
+
+Independent tools built on [laya](https://github.com/NandhaKishorM/laya) and [Cloudflare Clef](https://huggingface.co/Cloudflare/clef). These upstream models are separate from my MK-SH-1 work.
+
+**Routing**
+
+- [laya-router](https://github.com/Gjusev/laya-router): a local decision model selects a cheap or frontier tier; the OpenAI-compatible proxy forwards the completion request and exposes its routing reason.
+- [clef-router](https://github.com/Gjusev/clef-router): selects a tier through Cloudflare Clef and returns an inspectable decision. Your client calls the chosen completion model.
+
+**Retrieval**
+
+- [laya-compactor](https://github.com/Gjusev/laya-compactor): scores retrieved documents locally and fits them to a token budget, preserving retained text verbatim. Publishes SQuAD and HotpotQA results, including multi-hop losses.
+- [clef-compactor](https://github.com/Gjusev/clef-compactor): batches relevance decisions through Clef, then retains whole chunks under a budget with a reason for every cut. Includes LangChain and LlamaIndex adapters.
+
+**Evaluation**
+
+- [laya-evals](https://github.com/Gjusev/laya-evals): local rubric judging, calibration audits, threshold advice by question shape, and reproducible benchmark checks.
+- [clef-evals](https://github.com/Gjusev/clef-evals): typed decision evaluation with accuracy, calibration, latency, usage, and regression gates for Cloudflare Clef.
+- [laya-evals-gate](https://github.com/Gjusev/laya-evals-gate): a standalone GitHub Action that compares measurement JSON against a committed baseline without downloading models.
+
+**Security experiments**
+
+- [laya-phishield](https://github.com/Gjusev/laya-phishield): local phishing detection combining eight semantic signals with deterministic email checks and an explainable logistic score. Early research, with a published temporal evaluation.
+- [laya-warden](https://github.com/Gjusev/laya-warden): an early agent-tool supervision project. Its README still lists the core allow/hold/block API and integrations as roadmap items.
+
+</details>
+
+<details>
+<summary>Document & vision regression kits</summary>
+
+- **[locale-invoice-check](https://github.com/Gjusev/locale-invoice-check)** renders matched synthetic invoices in English, German, and Spanish, then checks extraction of IDs, dates, and amounts with deterministic CI gates. [PyPI](https://pypi.org/project/locale-invoice-check/).
+- **[vision-input-check](https://github.com/Gjusev/vision-input-check)** tests vision API answers across pixel-identical re-encodes and lossy image variants, with repeated runs and explicit handling of unstable baselines. [PyPI](https://pypi.org/project/vision-input-check/).
+
+Both include offline demos and standalone HTML reports. Their seeded demo failures demonstrate the harnesses, not live-model performance.
+
+</details>
+
+[All public repositories](https://github.com/Gjusev?tab=repositories)
 
 ---
 
-**[mokka](https://mokka-agentur.de)** — websites, AI products, and automation for small businesses.<br>
-Also building [klarbescheid](https://klarbescheid.de) for understandable benefits notices and [datenmaske](https://datenmaske.de) for PDF redaction.
+**My toolkit** · Python, PyTorch, TypeScript, React, Next.js, FastAPI, Tauri, PostgreSQL, Qdrant, Docker, and Playwright.
 
-[Let's build something useful →](https://www.linkedin.com/in/youssef-o-6b93611b7/)
+At **[mokka](https://mokka-agentur.de)** I build websites, AI products, and automation for small businesses. Also building [klarbescheid](https://klarbescheid.de) for understandable benefits notices and [datenmaske](https://datenmaske.de) for PDF redaction.
+
+[Contact me on LinkedIn](https://www.linkedin.com/in/youssef-o-6b93611b7/)
