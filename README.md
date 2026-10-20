@@ -30,7 +30,7 @@ Software that clients use, built and deployed end to end at mokka:
 - **[Datenmaske](https://datenmaske.de)**: GDPR PDF redaction for law firms and public authorities, fully offline. NER plus rules; detection recall went from 75% to 85% on a 1,428-entity planted benchmark.
 - **[Klarbescheid](https://klarbescheid.de)**: retrieval over real administrative notices that explains them in plain language and flags likely errors. From an unfamiliar domain to a shipped product in six weeks.
 
-Before founding, four years as a software engineer for enterprise clients: REST APIs and integrations that connected new software to the systems they already ran, lead developer on two accounts.
+mokka runs alongside my full-time job as a software engineer for enterprise clients, where I build REST APIs and integrations into the systems they already run and lead development on two accounts. Four years of professional software engineering in total.
 
 ## Models & research
 
