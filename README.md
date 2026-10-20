@@ -30,7 +30,7 @@ Software that clients use, built and deployed end to end at mokka:
 - **[Datenmaske](https://datenmaske.de)**: GDPR PDF redaction for law firms and public authorities, fully offline. NER plus rules; detection recall went from 75% to 85% on a 1,428-entity planted benchmark.
 - **[Klarbescheid](https://klarbescheid.de)**: retrieval over real administrative notices that explains them in plain language and flags likely errors. From an unfamiliar domain to a shipped product in six weeks.
 
-Before founding, four years of enterprise integration work: ELO document management for industrial clients (lead developer on two accounts), SAP interfaces over RFC, BAPI, and IDoc, and C# REST services replacing legacy workflows.
+Before founding, four years as a software engineer for enterprise clients: REST APIs and integrations that connected new software to the systems they already ran, lead developer on two accounts.
 
 ## Models & research
 
@@ -175,8 +175,8 @@ Both include offline demos and standalone HTML reports. Their seeded demo failur
 
 ---
 
-**My toolkit** · Python, PyTorch, TypeScript, React, Next.js, FastAPI, LangGraph, Tauri, PostgreSQL, Qdrant, Docker, Playwright, and Claude Code. Enterprise side: SAP (RFC, BAPI, IDoc) and ELO ECM.
+**My toolkit** · Python, PyTorch, TypeScript, React, Next.js, FastAPI, LangGraph, Tauri, PostgreSQL, Qdrant, Docker, Playwright, and Claude Code.
 
 At **[mokka](https://mokka-agentur.de)** I build AI products, automation, and websites for businesses.
 
-Open to forward deployed and product engineering roles in Paris or remote in Europe from November 2026. [Contact me on LinkedIn](https://www.linkedin.com/in/youssef-o-6b93611b7/)
+Open to AI engineering, full-stack product, and forward deployed roles in Paris or remote in Europe from November 2026. [Contact me on LinkedIn](https://www.linkedin.com/in/youssef-o-6b93611b7/)
