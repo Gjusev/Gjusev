@@ -7,20 +7,30 @@
 
 # Youssef Ouhaghi Ahmian
 
-**AI product engineer · Founder of [mokka](https://mokka-agentur.de)**
+**AI product & forward deployed engineer · Founder of [mokka](https://mokka-agentur.de)**
 
-I train small decision models, build voice agents, and write the tools to test them.<br>
-My work spans published model weights, reproducible evaluations, and software you can run yourself.
+I put AI into the systems companies already run, and I write the tools that show whether it works.<br>
+My work spans production deployments, published model weights, and reproducible evaluations.
 
-[Models & research](#models--research) &nbsp; / &nbsp; [Applications](#applications) &nbsp; / &nbsp; [Developer tools](#developer-tools)
+[In production](#in-production) &nbsp; / &nbsp; [Models & research](#models--research) &nbsp; / &nbsp; [Applications](#applications) &nbsp; / &nbsp; [Developer tools](#developer-tools)
 
 [Hugging Face](https://huggingface.co/Gjusev) · [Kaggle](https://www.kaggle.com/gjusev) · [LinkedIn](https://www.linkedin.com/in/youssef-o-6b93611b7/) · [mokka](https://mokka-agentur.de)
 
-<sub>Siegen, Germany · palestina libre</sub>
+<sub>Siegen, Germany, moving to Paris · palestina libre</sub>
 
 </div>
 
 ---
+
+## In production
+
+Software that clients use, built and deployed end to end at mokka:
+
+- **Nexary**: an enterprise knowledge platform deployed inside a client's own network for data sovereignty. Hybrid search (dense + BM25), cross-encoder reranking, and ingestion of text, OCR scans, and images. [Public portfolio export](https://github.com/Gjusev/nexary-platform).
+- **[Datenmaske](https://datenmaske.de)**: GDPR PDF redaction for law firms and public authorities, fully offline. NER plus rules; detection recall went from 75% to 85% on a 1,428-entity planted benchmark.
+- **[Klarbescheid](https://klarbescheid.de)**: retrieval over real administrative notices that explains them in plain language and flags likely errors. From an unfamiliar domain to a shipped product in six weeks.
+
+Before founding, four years of enterprise integration work: ELO document management for industrial clients (lead developer on two accounts), SAP interfaces over RFC, BAPI, and IDoc, and C# REST services replacing legacy workflows.
 
 ## Models & research
 
@@ -99,6 +109,12 @@ The corpus is **provisional**: speech is synthetic, the channel is simulated, an
 
 ## Developer tools
 
+### [nitelos](https://github.com/Gjusev/nitelos)
+
+**Did the agent really do what it says it did?** A small Python SDK: you write down what "done" means, hand over the evidence a run left behind (page state, screenshots, tool results, records from external systems), and it answers `success`, `failure`, or `abstained`. It never calls the agent's model and treats the agent's own report as context, not proof.
+
+[PyPI](https://pypi.org/project/nitelos/) · [How it works](https://github.com/Gjusev/nitelos#how-it-works) · Alpha (v0.1.0)
+
 ### [voice-evals](https://github.com/Gjusev/voice-evals)
 
 <a href="https://github.com/Gjusev/voice-evals#watch-the-demo">
@@ -159,8 +175,8 @@ Both include offline demos and standalone HTML reports. Their seeded demo failur
 
 ---
 
-**My toolkit** · Python, PyTorch, TypeScript, React, Next.js, FastAPI, Tauri, PostgreSQL, Qdrant, Docker, and Playwright.
+**My toolkit** · Python, PyTorch, TypeScript, React, Next.js, FastAPI, LangGraph, Tauri, PostgreSQL, Qdrant, Docker, Playwright, and Claude Code. Enterprise side: SAP (RFC, BAPI, IDoc) and ELO ECM.
 
-At **[mokka](https://mokka-agentur.de)** I build websites, AI products, and automation for small businesses. Also building [klarbescheid](https://klarbescheid.de) for understandable benefits notices and [datenmaske](https://datenmaske.de) for PDF redaction.
+At **[mokka](https://mokka-agentur.de)** I build AI products, automation, and websites for businesses.
 
-[Contact me on LinkedIn](https://www.linkedin.com/in/youssef-o-6b93611b7/)
+Open to forward deployed and product engineering roles in Paris or remote in Europe from November 2026. [Contact me on LinkedIn](https://www.linkedin.com/in/youssef-o-6b93611b7/)
