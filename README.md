@@ -61,6 +61,33 @@ These are bounded research measurements. The [model card](https://huggingface.co
 
 </details>
 
+### [MK-SH-V](https://github.com/Gjusev/mk-sh-v)
+
+<img align="right" src="https://raw.githubusercontent.com/Gjusev/mk-sh-v/main/assets/logo-mark.png" width="88" alt="MK-SH-V whale shark mark with an amber tide band" />
+
+**A 260M-parameter visual decision model, the image sibling of MK-SH-1.**
+
+It reads a document page or a screenshot together with a question and described options in one encoder pass. It returns calibrated probabilities and a choice, or refuses when its confidence falls below a gate whose risk was validated on held-out data. On real held-out screenshots it beats a model about 15 times its size run zero-shot; on receipt thresholds it does not.
+
+Published weights, a CPU demo with real cases it answers and cases it refuses, training code, and criteria frozen before every experiment. On real images the gate does not yet separate right from wrong answers; that is the next experiment.
+
+[Model weights & card](https://huggingface.co/Gjusev/MK-SH-V) · [Try the model](https://huggingface.co/spaces/Gjusev/MK-SH-V-demo) · [Results & limits](https://github.com/Gjusev/mk-sh-v#measured-against-the-field)
+
+<details>
+<summary>Inside the research: measurements and their limits</summary>
+
+| Measurement | Published result | Scope |
+| --- | --- | --- |
+| Real screenshots | 0.826 and 0.783 (two seeds) | GUI-Odyssey held out; a ~4B model zero-shot scores 0.731 |
+| Real receipt thresholds | 0.550 and 0.602 | CORD held out; the ~4B model scores 0.972 and a rules baseline 0.594 |
+| Effect of adding real training data | 0.471 → 0.765 overall (+29.4 pp, CI95 [+25.9, +32.9]) | 2,586 real held-out cases, seed 42; −2.5 pp on the synthetic test |
+| Refusal gate at τ 0.55 | 86% coverage, 95% Clopper-Pearson risk bound 3.2 to 3.4% | Held-out synthetic test, both seeds, 5% budget |
+| Same gate on real images | 17 to 21% risk on screenshots; 2 to 12% coverage on receipts | Outside the budget: the open problem of the campaign |
+
+Every arm was run on the same rows with pinned revisions. The [README](https://github.com/Gjusev/mk-sh-v#rigor) records a mislabel corrected in public and a threshold rule replaced before it was reused.
+
+</details>
+
 ### [laya-triage](https://github.com/Gjusev/laya-triage)
 
 **Support-ticket routing with a published BANKING77 fine-tune.** Two stages narrow 77 intents into 12 clusters and 8 departments, with urgency signals and confidence-based human handoff. The fine-tuned pipeline reached **89.8% intent accuracy on the full 3,080-ticket BANKING77 test split**. Multilingual routing is available; the published fine-tune and headline result are English.
@@ -136,7 +163,7 @@ Each includes a CLI and an agent skill. See the repositories for installation an
 <details>
 <summary>Decision-model tooling: routing, context compaction, calibration, and CI</summary>
 
-Independent tools built on [laya](https://github.com/NandhaKishorM/laya) and [Cloudflare Clef](https://huggingface.co/Cloudflare/clef). These upstream models are separate from my MK-SH-1 work.
+Independent tools built on [laya](https://github.com/NandhaKishorM/laya) and [Cloudflare Clef](https://huggingface.co/Cloudflare/clef). These upstream models are separate from my MK-SH-1 and MK-SH-V work.
 
 **Routing**
 
