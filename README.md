@@ -16,7 +16,7 @@ My work spans production deployments, published model weights, and reproducible 
 
 [Hugging Face](https://huggingface.co/Gjusev) · [Kaggle](https://www.kaggle.com/gjusev) · [LinkedIn](https://www.linkedin.com/in/youssef-o-6b93611b7/) · [mokka](https://mokka-agentur.de)
 
-<subOpen to EU and relocation</sub>
+<sub>Open to EU and relocation</sub>
 
 </div>
 
