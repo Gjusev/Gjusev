@@ -5,7 +5,7 @@
   <img src="assets/hero-still-light.svg" width="320" alt="Medusa, the illustrated emblem of my GitHub profile" />
 </picture>
 
-# Youssef Ouhaghi Ahmian
+
 
 **AI product & forward deployed engineer · Founder of [mokka](https://mokka-agentur.de)**
 
