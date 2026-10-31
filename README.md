@@ -1,10 +1,5 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-still-dark.svg" />
-  <img src="assets/hero-still-light.svg" width="280" alt="Medusa, the illustrated emblem of my GitHub profile" />
-</picture>
-
 **AI product & forward deployed engineer · founder of [mokka](https://mokka-agentur.de)**
 
 I put AI into the systems companies already run, and publish the numbers that show whether it works.
@@ -13,7 +8,7 @@ I put AI into the systems companies already run, and publish the numbers that sh
 
 <!-- stats:start -->
 <table><tr>
-<td align="center" width="200"><h3>3</h3><sub>products<br>in production</sub></td>
+<td align="center" width="200"><h3>4+</h3><sub>products<br>in production</sub></td>
 <td align="center" width="200"><h3>1,078</h3><sub>PyPI downloads<br>4 packages</sub></td>
 <td align="center" width="200"><h3>647</h3><sub>downloads of the<br>VoxEntity-EU benchmark</sub></td>
 <td align="center" width="200"><h3>21</h3><sub>likes on Hugging Face<br>8 models, datasets, demos</sub></td>
@@ -63,5 +58,5 @@ I put AI into the systems companies already run, and publish the numbers that sh
 
 **Open to** AI engineering, full-stack product and forward deployed roles · EU or relocation · from November 2026 · [LinkedIn](https://www.linkedin.com/in/youssef-o-6b93611b7/)
 
-<sub>4 years of professional software engineering; mokka runs alongside a full-time role building integrations for enterprise clients.<br>
+<sub>4+ years of professional software engineering; mokka runs alongside a full-time role building integrations for enterprise clients.<br>
 Python · PyTorch · TypeScript · Next.js · FastAPI · LangGraph · Tauri · PostgreSQL · Qdrant · Docker · Playwright</sub>
