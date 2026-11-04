@@ -9,11 +9,11 @@ I put AI into the systems companies already run, and publish the numbers that sh
 <!-- stats:start -->
 <table><tr>
 <td align="center" width="200"><h3>3</h3><sub>products<br>in production</sub></td>
-<td align="center" width="200"><h3>1,104</h3><sub>PyPI downloads<br>4 packages</sub></td>
-<td align="center" width="200"><h3>663</h3><sub>downloads of the<br>VoxEntity-EU benchmark</sub></td>
+<td align="center" width="200"><h3>1,108</h3><sub>PyPI downloads<br>4 packages</sub></td>
+<td align="center" width="200"><h3>676</h3><sub>downloads of the<br>VoxEntity-EU benchmark</sub></td>
 <td align="center" width="200"><h3>21</h3><sub>likes on Hugging Face<br>8 models, datasets, demos</sub></td>
 </tr></table>
-<sub>Live from PyPI and Hugging Face, checked daily · last change 2026-11-03</sub>
+<sub>Live from PyPI and Hugging Face, checked daily · last change 2026-11-04</sub>
 <!-- stats:end -->
 
 </div>
